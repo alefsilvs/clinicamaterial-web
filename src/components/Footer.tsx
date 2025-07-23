@@ -56,10 +56,10 @@ const Footer = () => {
                 <div>
                   <p className="font-medium">Telefone</p>
                   <a 
-                    href="tel:+5521999757944" 
+                    href="tel:+5561983036586" 
                     className="text-clinic-green-light hover:text-white transition-colors"
                   >
-                    (21) 99975-7944
+                    (61) 98303-6586
                   </a>
                 </div>
               </div>
@@ -69,10 +69,10 @@ const Footer = () => {
                 <div>
                   <p className="font-medium">E-mail</p>
                   <a 
-                    href="mailto:clinicamarcelamateus@gmail.com" 
+                    href="mailto:alef63134@gmail.com" 
                     className="text-clinic-green-light hover:text-white transition-colors"
                   >
-                    clinicamarcelamateus@gmail.com
+                    alef63134@gmail.com
                   </a>
                 </div>
               </div>
@@ -82,12 +82,12 @@ const Footer = () => {
                 <div>
                   <p className="font-medium">WhatsApp</p>
                   <a 
-                    href="https://wa.me/5521999757944" 
+                    href="https://wa.me/5561983036586" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="text-clinic-green-light hover:text-white transition-colors"
                   >
-                    (21) 99975-7944
+                    (61) 983036586
                   </a>
                 </div>
               </div>
