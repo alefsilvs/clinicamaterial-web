@@ -9,32 +9,49 @@ All colors MUST be HSL.
 @layer base {
   :root {
     --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --foreground: 0 0% 15%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 0 0% 15%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 0 0% 15%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 158 45% 30%;
+    --primary-foreground: 0 0% 98%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 158 25% 85%;
+    --secondary-foreground: 158 45% 20%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 0 0% 96%;
+    --muted-foreground: 0 0% 45%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 158 35% 70%;
+    --accent-foreground: 158 45% 15%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 0 0% 90%;
+    --input: 0 0% 90%;
+    --ring: 158 45% 30%;
+
+    /* Clinic-specific colors */
+    --clinic-green: 158 45% 30%;
+    --clinic-green-light: 158 25% 85%;
+    --clinic-green-dark: 158 55% 25%;
+    --clinic-gold: 45 85% 65%;
+    --clinic-dark: 0 0% 10%;
+    --clinic-light: 0 0% 98%;
+
+    /* Gradients */
+    --gradient-green: linear-gradient(135deg, hsl(158 45% 30%), hsl(158 35% 40%));
+    --gradient-overlay: linear-gradient(135deg, hsl(0 0% 0% / 0.6), hsl(0 0% 0% / 0.3));
+
+    /* Shadows */
+    --shadow-soft: 0 4px 20px -2px hsl(158 45% 30% / 0.1);
+    --shadow-card: 0 8px 30px -4px hsl(0 0% 0% / 0.08);
+    --shadow-button: 0 4px 15px -2px hsl(158 45% 30% / 0.3);
 
     --radius: 0.5rem;
 
@@ -99,7 +116,29 @@ All colors MUST be HSL.
     @apply border-border;
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
+
   body {
     @apply bg-background text-foreground;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-clinic-green-light/20;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-clinic-green rounded-full;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-clinic-green-dark;
   }
 }

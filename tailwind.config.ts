@@ -52,6 +52,14 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				clinic: {
+					green: 'hsl(var(--clinic-green))',
+					'green-light': 'hsl(var(--clinic-green-light))',
+					'green-dark': 'hsl(var(--clinic-green-dark))',
+					gold: 'hsl(var(--clinic-gold))',
+					dark: 'hsl(var(--clinic-dark))',
+					light: 'hsl(var(--clinic-light))'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
