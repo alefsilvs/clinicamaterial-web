@@ -21,7 +21,8 @@ const AboutSection = () => {
             
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
-                A Clínica Marcela Mateus é especializada em dermatologia estética, 
+                A Clínica Foto do perfil de esteticabeautyativa
+                estetica beauty ativa é especializada em dermatologia estética, 
                 oferecendo tratamentos personalizados e de alta qualidade para cuidar 
                 da sua pele e realçar sua beleza natural.
               </p>
