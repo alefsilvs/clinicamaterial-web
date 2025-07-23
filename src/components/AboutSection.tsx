@@ -16,7 +16,7 @@ const AboutSection = () => {
           {/* Left Column - Text */}
           <div className="space-y-6">
             <h2 className="text-4xl font-bold text-clinic-green mb-6">
-              Conheça a Clínica Marcela Mateus
+              Conheça a Clínica Ana Nicassio
             </h2>
             
             <div className="space-y-4 text-muted-foreground leading-relaxed">
