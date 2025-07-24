@@ -15,7 +15,7 @@ const Footer = () => {
                 <span className="text-clinic-green font-bold">CM</span>
               </div>
               <div>
-                <h3 className="text-xl font-bold">Clínica Marcela Mateus</h3>
+                <h3 className="text-xl font-bold">Clínica Estética Beauty Ativa</h3>
                 <p className="text-clinic-green-light text-sm">Dermatologia Estética</p>
               </div>
             </div>
@@ -36,7 +36,7 @@ const Footer = () => {
                 <Instagram className="w-5 h-5" />
               </a>
               <a 
-                href="https://wa.me/5521999757944" 
+                href="https://wa.me/5561983036586" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-clinic-green rounded-full flex items-center justify-center hover:bg-white hover:text-clinic-green transition-all duration-300"
@@ -103,9 +103,9 @@ const Footer = () => {
               <div>
                 <p className="font-medium mb-2">Endereço</p>
                 <address className="text-clinic-green-light not-italic leading-relaxed">
-                  Centro Clínico Guatelli<br />
-                  Sala 304 - Ed. Guatelli<br />
-                  Barreto - RJ
+                  Quadra Qn 7 Area Especial 1<br />
+                  Sala 112 - Riacho Mall<br />
+                  Brasília - DF
                 </address>
               </div>
             </div>
@@ -144,7 +144,7 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-center md:text-left">
               <p className="text-clinic-green-light text-sm">
-                © {currentYear} Clínica Marcela Mateus. Todos os direitos reservados.
+                © {currentYear} Clínica Estética Beauty Ativa. Todos os direitos reservados.
               </p>
             </div>
             
