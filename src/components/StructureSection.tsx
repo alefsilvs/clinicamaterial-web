@@ -1,8 +1,8 @@
 import { Button } from "@/components/ui/button";
 import receptionImage from "@/assets/clinic-reception.jpg";
 import treatmentImage from "@/assets/treatment-room.jpg";
-import estetica04 from "@/assets/estetica04.jpg";
-import estetica01 from "@/assets/estetica01.jpg";
+import estetica04 from "@/assets/estetica 04.jpg";
+import estetica01 from "@/assets/estetica 01.jpg";
 
 const StructureSection = () => {
   const scrollToBooking = () => {
