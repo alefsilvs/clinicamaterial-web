@@ -23,10 +23,10 @@ const HeroSection = () => {
 
       {/* Content */}
       <div className="relative z-10 text-center text-white px-4 max-w-4xl mx-auto">
-        <p className="text-lg mb-4 opacity-90">Bem-vindo(a) à Clínica Marcela Mateus</p>
+        <p className="text-lg mb-4 opacity-90">Bem-vindo(a) à Clínica Estética Beauty Ativa</p>
         <h1 className="text-5xl md:text-7xl font-bold mb-8 leading-tight">
           CLÍNICA<br />
-          MARCELA MATEUS
+          Beauty Ativa
         </h1>
         
         <Button 
