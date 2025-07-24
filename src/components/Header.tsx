@@ -23,7 +23,7 @@ const Header = () => {
               <span className="text-white font-bold text-sm">CM</span>
             </div>
             <div>
-              <h1 className="text-xl font-bold text-clinic-green">Clínica Marcela Mateus</h1>
+              <h1 className="text-xl font-bold text-clinic-green">Clínica Estética Beauty Ativa</h1>
               <p className="text-sm text-muted-foreground">Dermatologia Estética</p>
             </div>
           </div>
