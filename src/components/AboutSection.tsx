@@ -1,5 +1,7 @@
 import { Button } from "@/components/ui/button";
 import aboutImage from "@/assets/about-doctor.jpg";
+import ana01 from "@/assets/ana 01.jpg";
+
 
 const AboutSection = () => {
   const scrollToBooking = () => {
@@ -52,7 +54,7 @@ const AboutSection = () => {
           <div className="relative">
             <div className="relative overflow-hidden rounded-2xl shadow-[var(--shadow-card)]">
               <img 
-                src={aboutImage} 
+                src={ana01} 
                 alt="Dra. Marcela Mateus" 
                 className="w-full h-[500px] object-cover hover:scale-105 transition-transform duration-500"
               />
