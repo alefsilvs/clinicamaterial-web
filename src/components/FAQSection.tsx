@@ -31,7 +31,7 @@ const faqs = [
 
 const FAQSection = () => {
   const openWhatsApp = () => {
-    window.open('https://wa.me/5521999757944', '_blank');
+    window.open('https://wa.me/5561983036586', '_blank');
   };
 
   return (
