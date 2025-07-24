@@ -7,6 +7,7 @@ import { Calendar, Clock, CheckCircle } from "lucide-react";
 import { useState } from "react";
 import { useToast } from "@/hooks/use-toast";
 import aboutImage from "@/assets/about-doctor.jpg";
+import ana01 from "@/assets/ana 01.jpg";
 
 interface FormData {
   name: string;
@@ -75,7 +76,7 @@ const BookingSection = () => {
           <div className="space-y-8">
             <div className="relative">
               <img 
-                src={aboutImage} 
+                src={ana01} 
                 alt="Dra. Marcela Mateus" 
                 className="w-full max-w-md mx-auto lg:mx-0 rounded-2xl shadow-[var(--shadow-card)]"
               />
