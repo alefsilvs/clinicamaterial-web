@@ -1,6 +1,8 @@
 import { Button } from "@/components/ui/button";
 import receptionImage from "@/assets/clinic-reception.jpg";
 import treatmentImage from "@/assets/treatment-room.jpg";
+import estetica04 from "@/assets/estetica04.jpg";
+import estetica01 from "@/assets/estetica01.jpg";
 
 const StructureSection = () => {
   const scrollToBooking = () => {
@@ -28,7 +30,7 @@ const StructureSection = () => {
         <div className="grid md:grid-cols-2 gap-8 mb-12">
           <div className="relative group overflow-hidden rounded-2xl shadow-[var(--shadow-card)]">
             <img 
-              src={receptionImage} 
+              src={estetica04} 
               alt="Recepção da Clínica Marcela Mateus" 
               className="w-full h-[400px] object-cover group-hover:scale-105 transition-transform duration-500"
             />
@@ -42,7 +44,7 @@ const StructureSection = () => {
 
           <div className="relative group overflow-hidden rounded-2xl shadow-[var(--shadow-card)]">
             <img 
-              src={treatmentImage} 
+              src={estetica01} 
               alt="Sala de Tratamento" 
               className="w-full h-[400px] object-cover group-hover:scale-105 transition-transform duration-500"
             />
