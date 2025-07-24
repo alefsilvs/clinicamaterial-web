@@ -26,7 +26,7 @@ const HeroSection = () => {
         <p className="text-lg mb-4 opacity-90">Bem-vindo(a) à Clínica Estética Beauty Ativa</p>
         <h1 className="text-5xl md:text-7xl font-bold mb-8 leading-tight">
           CLÍNICA<br />
-          Beauty Ativa
+          BEAUTY ATIVA
         </h1>
         
         <Button 
