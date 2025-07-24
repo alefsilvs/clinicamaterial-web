@@ -46,7 +46,7 @@ const StructureSection = () => {
             <img 
               src={estetica01} 
               alt="Sala de Tratamento" 
-              className="w-full h-[200px] object-cover group-hover:scale-105 transition-transform duration-500"
+              className="w-full h-[400px] object-cover group-hover:scale-105 transition-transform duration-500"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-clinic-dark/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
               <div className="absolute bottom-6 left-6 text-white">
