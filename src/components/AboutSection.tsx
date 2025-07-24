@@ -16,12 +16,12 @@ const AboutSection = () => {
           {/* Left Column - Text */}
           <div className="space-y-6">
             <h2 className="text-4xl font-bold text-clinic-green mb-6">
-              Conheça a Clínica  estetica beauty ativa
+              Conheça a Clínica  Estética Beauty Ativa
             </h2>
             
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
-                A Clínica estetica beauty ativa é especializada em dermatologia estética, 
+                A Clínica Estética Beauty Ativa é especializada em dermatologia estética, 
                 oferecendo tratamentos personalizados e de alta qualidade para cuidar 
                 da sua pele e realçar sua beleza natural.
               </p>
