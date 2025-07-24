@@ -56,7 +56,7 @@ const AboutSection = () => {
               <img 
                 src={ana01} 
                 alt="Dra. Marcela Mateus" 
-                className="w-full h-[400px] object-cover hover:scale-105 transition-transform duration-500"
+                className="w-full h-[500px] object-cover hover:scale-105 transition-transform duration-500"
               />
             </div>
             
