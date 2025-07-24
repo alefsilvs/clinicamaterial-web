@@ -154,7 +154,7 @@ const BookingSection = () => {
                       type="tel"
                       value={formData.phone}
                       onChange={handleInputChange}
-                      placeholder="(21) 99999-9999"
+                      placeholder="(61) 99931-8055"
                       required
                     />
                   </div>
