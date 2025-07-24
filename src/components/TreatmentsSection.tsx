@@ -83,7 +83,7 @@ const TreatmentsSection = () => {
                   <Button 
                     variant="clinic-outline" 
                     className="w-full mt-6"
-                    onClick={() => window.open('https://wa.me/5521999757944', '_blank')}
+                    onClick={() => window.open('https://wa.me/5561983036586', '_blank')}
                   >
                     Quero saber mais
                   </Button>
