@@ -20,9 +20,9 @@ const treatments = [
   {
     id: 3,
     icon: Scissors,
-    title: "SPA CAPILAR",
-    description: "Tratamento completo de relaxamento e revitalização capilar. Hidratação profunda e cuidados especializados para cabelos saudáveis.",
-    benefits: ["Relaxamento", "Hidratação profunda", "Revitalização"]
+    title: "Massagem Relaxante",
+    description: "Além dos benefícios físicos, a massagem relaxante pode melhorar o humor, reduzir a ansiedade e promover uma sensação geral de tranquilidade.",
+    benefits: ["Relaxamento", "Reduz ansiedade", "auxiliar na melhora da qualidade do sono."]
   }
 ];
 
