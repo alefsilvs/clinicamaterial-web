@@ -6,9 +6,9 @@ const treatments = [
   {
     id: 1,
     icon: Zap,
-    title: "ADVA TX – LASER",
-    description: "Tratamento avançado para rejuvenescimento da pele usando tecnologia laser de última geração. Reduz manchas, rugas e melhora a textura da pele.",
-    benefits: ["Rejuvenescimento", "Redução de manchas", "Melhora da textura"]
+    title: "Botox",
+    description: "Redução de rugas e linhas de expressão, especialmente na testa, ao redor dos olhos.",
+    benefits: ["Rejuvenescimento", "Melhora da textura", "Rugas e linhas de expressão"]
   },
   {
     id: 2,
