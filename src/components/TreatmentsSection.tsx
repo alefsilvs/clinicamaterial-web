@@ -13,7 +13,7 @@ const treatments = [
   {
     id: 2,
     icon: Sparkles,
-    title: "AISPA",
+    title: "Peeling De Hidratação",
     description: "Procedimento não invasivo que utiliza tecnologia inovadora para revitalização facial. Estimula a produção de colágeno naturalmente.",
     benefits: ["Não invasivo", "Estimula colágeno", "Resultados naturais"]
   },
