@@ -1,11 +1,12 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Zap, Sparkles, Scissors } from "lucide-react";
+import { Syringe } from 'lucide-react';
 
 const treatments = [
   {
     id: 1,
-    icon: Zap,
+    icon: Syringe,
     title: "Botox",
     description: "Redução de rugas e linhas de expressão, especialmente na testa, ao redor dos olhos.",
     benefits: ["Rejuvenescimento", "Melhora da textura", "Rugas e linhas de expressão"]
