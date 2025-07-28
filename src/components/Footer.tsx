@@ -28,7 +28,7 @@ const Footer = () => {
             {/* Social Links */}
             <div className="flex space-x-4">
               <a 
-                href="https://instagram.com/clinicamarcelamateus" 
+                href="https://www.instagram.com/esteticabeautyativa/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-clinic-green rounded-full flex items-center justify-center hover:bg-white hover:text-clinic-green transition-all duration-300"
@@ -36,7 +36,7 @@ const Footer = () => {
                 <Instagram className="w-5 h-5" />
               </a>
               <a 
-                href="https://wa.me/5561983036586" 
+                href="https://wa.me/5561999318055" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-clinic-green rounded-full flex items-center justify-center hover:bg-white hover:text-clinic-green transition-all duration-300"
@@ -56,10 +56,10 @@ const Footer = () => {
                 <div>
                   <p className="font-medium">Telefone</p>
                   <a 
-                    href="tel:+5561983036586" 
+                    href="tel:+5561999318055" 
                     className="text-clinic-green-light hover:text-white transition-colors"
                   >
-                    (61) 98303-6586
+                    (61) 99931-8055
                   </a>
                 </div>
               </div>
@@ -82,12 +82,12 @@ const Footer = () => {
                 <div>
                   <p className="font-medium">WhatsApp</p>
                   <a 
-                    href="https://wa.me/5561983036586" 
+                    href="https://wa.me/5561999318055" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="text-clinic-green-light hover:text-white transition-colors"
                   >
-                    (61) 983036586
+                    (61) 99931-8055
                   </a>
                 </div>
               </div>
