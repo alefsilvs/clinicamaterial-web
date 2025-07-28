@@ -2,6 +2,8 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Zap, Sparkles, Scissors } from "lucide-react";
 import { Syringe } from 'lucide-react';
+import { Bubbles } from 'lucide-react';
+
 
 const treatments = [
   {
@@ -20,7 +22,7 @@ const treatments = [
   },
   {
     id: 3,
-    icon: Scissors,
+    icon: Bubbles,
     title: "Massagem Relaxante",
     description: "Além dos benefícios físicos, a massagem relaxante pode melhorar o humor, reduzir a ansiedade e promover uma sensação geral de tranquilidade.",
     benefits: ["Relaxamento", "Reduz ansiedade", "auxiliar na melhora da qualidade do sono."]
