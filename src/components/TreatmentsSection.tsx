@@ -3,6 +3,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Zap, Sparkles, Scissors } from "lucide-react";
 import { Syringe } from 'lucide-react';
 import { Bubbles } from 'lucide-react';
+import { ScanFace } from 'lucide-react';
 
 
 const treatments = [
@@ -15,7 +16,7 @@ const treatments = [
   },
   {
     id: 2,
-    icon: Sparkles,
+    icon: ScanFace,
     title: "Peeling De Hidratação",
     description: "Procedimento não invasivo que utiliza tecnologia inovadora para revitalização facial. Estimula a produção de colágeno naturalmente.",
     benefits: ["Pele fica mais uniforme e radiante", "Estimula colágeno", "Resultados Excelente"]
