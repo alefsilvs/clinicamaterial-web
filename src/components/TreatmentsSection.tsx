@@ -15,7 +15,7 @@ const treatments = [
     icon: Sparkles,
     title: "Peeling De Hidratação",
     description: "Procedimento não invasivo que utiliza tecnologia inovadora para revitalização facial. Estimula a produção de colágeno naturalmente.",
-    benefits: ["Não invasivo", "Estimula colágeno", "Resultados naturais"]
+    benefits: ["Pele fica mais uniforme e radiante", "Estimula colágeno", "Resultados Excelente"]
   },
   {
     id: 3,
