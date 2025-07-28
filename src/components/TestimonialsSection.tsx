@@ -6,23 +6,23 @@ const testimonials = [
     id: 1,
     name: "Anaisa",
     age: 30,
-    treatment: "SPA Capilar",
-    text: "Fico muito satisfeita com os resultados do SPA Capilar. Foi incrível o tratamento e o cuidado que recebi na clínica.",
+    treatment: "Botox",
+    text: "Fico muito satisfeita com os resultados do Botox. Foi incrível o tratamento e o cuidado que recebi na clínica.",
     rating: 5
   },
   {
     id: 2,
     name: "Marina",
     age: 28,
-    treatment: "ADVA TX Laser",
-    text: "O tratamento com laser superou minhas expectativas. Minha pele ficou mais uniforme e radiante. Recomendo muito!",
+    treatment: "Peeling De Hidratação",
+    text: "O tratamento com Peeling De Hidratação superou minhas expectativas. Minha pele ficou mais uniforme e radiante. Recomendo muito!",
     rating: 5
   },
   {
     id: 3,
     name: "Carla",
     age: 35,
-    treatment: "AISPA",
+    treatment: "Massagem Relaxante",
     text: "Procedimento muito confortável e resultados visíveis desde a primeira sessão. A equipe é extremamente profissional.",
     rating: 5
   }
