@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Zap, Sparkles, Scissors } from "lucide-react";
+import { Sparkles } from "lucide-react";
 import { Syringe } from 'lucide-react';
 import { SmilePlus } from 'lucide-react';
 
@@ -9,14 +9,14 @@ import { SmilePlus } from 'lucide-react';
 const treatments = [
   {
     id: 1,
-    icon: Syringe,
+    icon: Syringe ,
     title: "Botox",
     description: "Redução de rugas e linhas de expressão, especialmente na testa, ao redor dos olhos.",
     benefits: ["Rejuvenescimento", "Melhora da textura", "Rugas e linhas de expressão"]
   },
   {
     id: 2,
-    icon: ScanFace,
+    icon: ScanFace ,
     title: "Peeling De Hidratação",
     description: "Procedimento não invasivo que utiliza tecnologia inovadora para revitalização facial. Estimula a produção de colágeno naturalmente.",
     benefits: ["Pele fica mais uniforme e radiante", "Estimula colágeno", "Resultados Excelente"]
